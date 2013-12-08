@@ -17,9 +17,9 @@ while ((c=getchar())!=EOF) {
 //liczenie i formatowanie w tabelke
 printf("\nznak\tliczba znakow\n-----------------------\n");
 for (i = 32; i<=255; i++) {
-  if (tabelka[i] > 0){
+  if (tabelka[i] > 0) {
     printf("%c\t%d\t", i, tabelka[i]);
-    for(i2 = 1; i2 <= tabelka[i]; i2++){
+    for(i2 = 1; i2 <= tabelka[i]; i2++) {
        printf("*");
     }
     printf("\n");
