@@ -7,7 +7,7 @@ int c;
 while ((c=getchar())!=EOF)
   if (c == '\t')
     printf("\\t");
-  else if (c=='\\')
+  else if (c == '\\')
     printf("\\\\");
   else
   putchar(c);
